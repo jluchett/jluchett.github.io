@@ -1,0 +1,42 @@
+.headerContainer {
+    background-color: #007BFF; /* Color de fondo */
+    padding: 1rem 2rem; /* Espaciado */
+    color: white; /* Color del texto */
+    display: flex; /* Disposición flex */
+    align-items: center; /* Alineación vertical */
+    justify-content: space-between; /* Espaciado entre elementos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    position: sticky; /* Posicionamiento fijo */
+    top: 0; /* Posicionado en la parte superior */
+    z-index: 1000; /* Superposición */
+  }
+  
+  .logoContainer {
+    font-size: 1.5rem; /* Tamaño de fuente */
+  }
+  
+  .nav {
+    display: flex; /* Disposición flex */
+  }
+  
+  .navList {
+    list-style: none; /* Sin viñetas */
+    display: flex; /* Disposición flex */
+    gap: 1rem; /* Espaciado entre elementos */
+    margin: 0; /* Margen */
+    padding: 0; /* Relleno */
+  }
+  
+  .navLink {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 0.5rem 1rem; /* Relleno */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  .navLink:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo al pasar el cursor */
+    color: #fff; /* Color del texto al pasar el cursor */
+  }
+  
