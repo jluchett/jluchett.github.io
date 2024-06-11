@@ -1,17 +1,23 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import './App.css'; // Si tienes estilos globales
+import Footer from './components/Footer';
+import './App.css';
 
 const App = () => {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/" exact element={<home />} />
-      </Routes>
+      <div className="appContainer">
+        <Header />
+        <main className="mainContent">
+          <Routes>
+            <Route path="/" element={" "} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
-}
+};
 
 export default App;
