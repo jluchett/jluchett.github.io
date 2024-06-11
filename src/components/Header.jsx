@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <h1>Jorge Luchetta</h1>
+        <h1>My Portafolio</h1>
       </div>
       <nav className="nav">
         <NavLink exact="true" to="/" className={({ isActive }) => isActive ? "active" : ''}>Home</NavLink>
