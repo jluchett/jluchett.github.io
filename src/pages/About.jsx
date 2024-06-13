@@ -3,7 +3,7 @@ import '../styles/about.css';
 
 const About = () => {
   return (
-    <div className="aboutContainer">
+    <div id='about' className="aboutContainer">
       <h2>Sobre mí</h2>
       <p>
         Soy desarrollador Full Stack con experiencia en frontend (React, Redux, Bootstrap, HTML5, CSS3) y backend (Node.js, Express, Sequelize, Postgres, MongoDB).

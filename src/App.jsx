@@ -1,27 +1,32 @@
+// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
+/* import Home from './sections/Home';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Experience from './sections/Experience';
+import Contact from './sections/Contact'; */
 import './App.css';
 
-
-const App = () => {
+function App() {
   return (
-    <Router>
-      <div className="appContainer">
-        <Header />
-        <main className="mainContent">
-          <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path='/about' element={<About/>}/>
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <nav>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      {/* <Home />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact /> */}
+    </div>
   );
-};
+}
 
 export default App;
+
