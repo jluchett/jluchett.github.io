@@ -7,21 +7,40 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  
-}
-.appContainer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* App.css */
+nav {
+  background: #343a40;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-.mainContent {
-  flex: 1;
-  padding: 2rem;
-  background-color: #f5f5f5;
-  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background: #495057;
+  border-radius: 4px;
+}
+
+.App {
+  padding-top: 60px; /* Ajusta esto si cambias la altura del nav */
 }
