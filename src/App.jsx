@@ -4,21 +4,16 @@ import React from 'react';
 
 import './App.css';
 import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <h2>My Portafolio</h2>
-          <li><a href="#home">Inicio</a></li>
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
+      
+      <Header/>
       <Home/>
+      <Footer/>
     </div>
   );
 }
