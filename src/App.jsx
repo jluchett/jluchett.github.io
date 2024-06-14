@@ -1,17 +1,16 @@
 // App.js
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
-/* import Home from './sections/Home';
-import About from './sections/About';
-import Projects from './sections/Projects';
-import Experience from './sections/Experience';
-import Contact from './sections/Contact'; */
+
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
       <nav>
         <ul>
+          <h2>My Portafolio</h2>
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Sobre mí</a></li>
           <li><a href="#projects">Proyectos</a></li>
@@ -19,11 +18,7 @@ function App() {
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-      {/* <Home />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact /> */}
+      <Home/>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-/* Home.css */
 .section {
   padding: 100px 0;
   text-align: center;
@@ -13,4 +12,12 @@
 p {
   font-size: 1.2rem;
   color: #6c757d;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
