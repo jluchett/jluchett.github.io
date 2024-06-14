@@ -9,7 +9,7 @@
   
   .aboutContainer h2 {
     font-size: 2rem;
-    color: #007BFF;
+    color: #343a40;
     margin-bottom: 1rem;
   }
   
@@ -21,12 +21,12 @@
   
   .aboutContainer h3 {
     font-size: 1.5rem;
-    color: #007BFF;
+    color: #343a40;
     margin-bottom: 0.5rem;
   }
   
   .aboutContainer ul {
-    list-style-type: disc;
+    list-style-type:none;
     padding-left: 1.5rem;
   }
   
