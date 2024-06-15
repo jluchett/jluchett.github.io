@@ -7,6 +7,7 @@ function Projects() {
   const projects = [
     { title: 'Proyecto 1', description: 'Descripción del proyecto 1', technologies: ['React', 'Node.js'], link: '#' },
     { title: 'Proyecto 2', description: 'Descripción del proyecto 2', technologies: ['Java', 'Spring'], link: '#' },
+    { title: 'Proyecto 3', description: 'Descripción del proyecto 3', technologies: ['Java', 'Spring'], link: '#' },
   ];
 
   return (
