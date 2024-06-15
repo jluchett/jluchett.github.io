@@ -5,6 +5,7 @@ import '../styles/header.css';
 const Header = () => {
   return (
     <header className="header">
+      <section className='header-content'>
       <nav>
         <ul>
           <li><a href="#home">Inicio</a></li>
@@ -14,6 +15,9 @@ const Header = () => {
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
+
+      </section>
+      
     </header>
   );
 };

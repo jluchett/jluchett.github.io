@@ -7,40 +7,6 @@
   margin: 0;
 }
 
-/* App.css */
-nav {
-  background: #343a40;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  padding: 5px 10px;
-}
-
-nav ul li a:hover {
-  background: #495057;
-  border-radius: 4px;
-}
-
 .App {
-  padding-top: 40px; /* Ajusta esto si cambias la altura del nav */
+  padding-top: 20px; /* Ajusta esto si cambias la altura del nav */
 }
